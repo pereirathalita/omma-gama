@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+header {
+    background-color: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+header a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    height: 48px;
+    background-color: #FFA000;
+
+}
+
+nav ul {
+    display: flex;  
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 12px 58px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+/* Main */
+
+main {
+    display: flex;
+}
+
+main article {
+    margin-left: 120px;
+    margin-top: 107px;
+    max-width: 580px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: lowercase;
+    color: #FFA000;
+}
+
+main article section img {
+    margin-bottom: 25px;
+    margin-top: 28px;
+}
+
+main article section span {
+    color: #176902;
+    border: 1px solid;
+    margin-top: 25px;
+    margin-right: 19px;
+    padding: 7px 10px;   
+    border-radius: 30px;
+}
+
+main article section ul {
+    margin-top: 65px;
+    list-style: none;
+}
+
+main article section h4 {
+    margin-bottom: 37px;
+}
+
+main article section iframe {
+    margin-bottom: 35px;
+}
+
+main article section p {
+    margin-bottom: 166px;
+}
+
+/* Aside */
+
+aside {
+    margin-top: 178px;
+    margin-left: 280px;
+}
+
+aside h2 {
+    color: #FFA000;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+
+.cardLateral {
+    width: 345px;
+    height: 411px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 55px;
+}
+
+.cardLateral p {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+/* Footer */
+
+footer {
+    background: #FFC107;  
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer span {
+    color: #FFFFFF; 
+    align-self: center;
+    margin-left: 38px;
+
+}
