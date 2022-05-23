@@ -145,6 +145,7 @@ footer {
     background: #FFC107;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 footer span {
