@@ -97,7 +97,7 @@ main article section p {
 
 aside {
     margin-top: 178px;
-    margin-left: 280px;
+    margin-left: 250px;
 }
 
 aside h2 {
@@ -111,7 +111,8 @@ aside h2 {
     width: 345px;
     height: 411px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 55px;
+    margin-bottom: 50px;
+    margin-right: 100px;
 }
 
 .cardLateral p {
